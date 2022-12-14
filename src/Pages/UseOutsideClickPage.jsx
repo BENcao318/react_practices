@@ -4,7 +4,7 @@ import { useOusideClick } from '../Hooks/useOusideClick'
 
 export const UseOutsideClickPage = () => {
   const boxRef = useRef()
-
+  // useOutsideClick
   useOusideClick(boxRef, () => toast('Clicked outside'))
 
   return (
