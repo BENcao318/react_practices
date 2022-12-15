@@ -25,7 +25,7 @@ export const SelectAllCheckBoxesPage = () => {
   return (
     <div>
       <a href="/" className="font-bold">
-        Home
+        Homepage
       </a>
       <Checkbox
         label="Select All"
