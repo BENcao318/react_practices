@@ -5,7 +5,7 @@ export const JobFeedPage = () => {
   return (
     <div>
       <a href="/" className="font-bold">
-        Home
+        HomePage
       </a>
       <JobFeed />
     </div>
