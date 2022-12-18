@@ -4,7 +4,7 @@ import { JobFeed } from '../Components/JobFeed'
 export const JobFeedPage = () => {
   return (
     <div>
-      <a href="/" className="font-bold">
+      <a href="/" className="text-lg font-bold text-orange-300">
         HomePage
       </a>
       <JobFeed />
