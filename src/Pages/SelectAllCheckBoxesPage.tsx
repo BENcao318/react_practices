@@ -28,7 +28,7 @@ export const SelectAllCheckBoxesPage = () => {
         Homepage
       </a>
       <Checkbox
-        label="Select All"
+        label="Select All 3"
         checked={
           listItems.filter((el: any) => el?.checked !== true).length < 1
             ? true
