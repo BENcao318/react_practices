@@ -6,7 +6,7 @@ export const UseOutsideClickPage = () => {
   const boxRef = useRef()
   // useOutsideClick
   useOusideClick(boxRef, () => toast('Clicked outside'))
-
+  // page
   return (
     <div>
       <a href="/" className="font-bold">
