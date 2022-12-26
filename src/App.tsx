@@ -9,6 +9,7 @@ import { UseOutsideClickPage } from './Pages/UseOutsideClickPage'
 
 function App() {
   return (
+    // ReactRoutes
     <Router>
       <Routes>
         <Route path="/" element={<HomePage />} />
