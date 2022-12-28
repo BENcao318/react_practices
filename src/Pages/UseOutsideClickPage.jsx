@@ -19,7 +19,7 @@ export const UseOutsideClickPage = () => {
           ref={boxRef}
           className="inline-block px-6 py-3 text-xs font-medium leading-tight text-white uppercase transition duration-150 ease-in-out bg-blue-600 rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-3 active:bg-blue-800 active:shadow-lg"
         >
-          Click Outside To Show The Notification Toasts
+          Click Outside To Show The Toasts
         </button>
       </div>
     </div>
