@@ -10,7 +10,7 @@ export const UseOutsideClickPage = () => {
   return (
     <div>
       <a href="/" className="font-bold">
-        Home
+        Homepa
       </a>
       <Toaster />
       <div className="container">
