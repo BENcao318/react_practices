@@ -4,7 +4,6 @@ export const Checkbox = ({
   label,
   checked,
   onChange,
-  className,
 }: {
   label?: string
   checked?: boolean
