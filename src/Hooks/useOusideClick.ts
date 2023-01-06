@@ -6,8 +6,8 @@ export const useOusideClick = (ref: any, callback: Function) => {
       if (!ref.current || ref.current.contains(event.target)) {
         return
       }
+      //use the callback to call these functions
       callback(event)
-      //use the callback to call the functions
     }
 
     document.addEventListener('mousedown', listener)
