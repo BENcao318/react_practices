@@ -18,7 +18,7 @@ export const JobFeed = () => {
     'https://hacker-news.firebaseio.com/v0/jobstories.json'
   const [posts, setPosts] = useState([] as any)
   const [pageNumber, setPageNumber] = useState(0)
-  const [perPage, setPerPage] = useState(6)
+  const [perPage] = useState(6)
 
   useEffect(() => {
     fetchAllJobIDs()
