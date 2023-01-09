@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import { Checkbox } from '../Components/Checkbox'
 import { list } from '../Components/list'
 
